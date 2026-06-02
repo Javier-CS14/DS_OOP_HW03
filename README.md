@@ -24,10 +24,7 @@ The main objectives of this project are:
 - IDE: Microsoft Visual Studio
 - Framework: Instructor-provided OpenGL Graph Framework
 
----
-
-
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Graph Generation Functions!
 Implemented multiple graph construction algorithms to support different graph topologies for testing and visualization.
 
@@ -55,3 +52,26 @@ Implemented multiple graph construction algorithms to support different graph to
 
 ### Purpose!!
 These graph generation methods provide different graph structures for testing node operations, edge operations, shortest path analysis, and depth calculations.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NEXT WE SHALL CONTINUE WITH:
+## Node and Edge Operations
+Implemented graph editing operations for interactive graph manipulation.
+
+### Node Deletion
+- Allows users to select and remove nodes.
+- Automatically removes all edges connected to the deleted node.
+- Updates active node lists and graph data structures.
+
+### Edge Deletion
+- Allows users to remove selected edges.
+- Updates adjacency information for affected nodes.
+- Maintains graph consistency after removal.
+
+### Automatic Graph Deletion
+- Continuously removes nodes from the graph.
+- Removes corresponding edges automatically.
+- Stops when no nodes remain.
+
+### Purpose
+These operations allow dynamic modification of graph structures during runtime and provide support for graph maintenance and testing.
