@@ -75,3 +75,68 @@ Implemented graph editing operations for interactive graph manipulation.
 
 ### Purpose
 These operations allow dynamic modification of graph structures during runtime and provide support for graph maintenance and testing.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NEXT WE SHALL CONTINUE WITH:
+
+## Shortest Path Analysis
+Implemented shortest path computation between selected nodes.
+
+### Functionality
+- Select a start node.
+- Select a destination node.
+- Calculate the shortest path connecting both nodes.
+- Highlight the resulting path for visualization.
+
+### Applications
+- Graph traversal analysis.
+- Connectivity verification.
+- Route optimization demonstration.
+
+### Result
+Users can visually inspect the minimum path between two nodes within the graph.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NEXT WE SHALL CONTINUE WITH:
+
+## Node Depth Calculation
+Implemented node depth analysis to determine graph traversal levels.
+
+### Functionality
+- Select a root node.
+- Traverse connected nodes.
+- Compute depth values relative to the root.
+- Display depth information for graph analysis.
+
+### Applications
+- Graph hierarchy analysis.
+- Breadth-first traversal visualization.
+- Structural graph inspection.
+
+### Result
+Users can evaluate node relationships and graph structure using depth information.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NEXT WE SHALL CONTINUE WITH:
+
+## Testing and Debugging
+Performed comprehensive testing of all implemented graph functionalities.
+
+### Tested Components
+- Node creation
+- Edge creation
+- Graph generation functions
+- Node deletion
+- Edge deletion
+- Automatic deletion
+- Shortest path calculation
+- Node depth analysis
+
+### Bug Fixes
+- Corrected graph connectivity issues.
+- Improved node selection behavior.
+- Fixed edge update inconsistencies after deletion.
+- Verified graph integrity after modifications.
+
+### Final Status
+All required functionalities were successfully implemented and validated for submission.
